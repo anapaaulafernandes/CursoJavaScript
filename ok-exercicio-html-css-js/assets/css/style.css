@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(7, 100, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+  font-weight: 450;
+}
+
+h1 {
+}
+
+.pai {
+  background-color: aliceblue;
+  width: 400px;
+  
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tabela, .resultados{
+list-style-type: none;
+
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.calculoImc {
+  width: 100%;
+  /* padding: 10px; */
+}
+
+input {
+  width: 100%;
+  padding: 10px 0px;
+  border: 1;
+}
+
+button {
+  background-color: rgb(7, 100, 100);
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+.resultado {
+  background-color: palevioletred;
+  color: brown;
+  padding-left: 5px;
+}

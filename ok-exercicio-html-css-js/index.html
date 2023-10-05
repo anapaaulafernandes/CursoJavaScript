@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat&family=Mooli&family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="pai">
+      <h1>Tabela IMC</h1>
+      <div class="container">
+        <div class="tabela">
+          <h2>IMC</h2>
+          <li>Menor que 18,5</li>
+          <li>Entre 18,5 e 24,9</li>
+          <li>Entre 25 e 29,9</li>
+          <li>Entre 30 e 34,9</li>
+          <li>Entre 35 e 39,9</li>
+          <li>Mais de 40</li>
+        </div>
+
+        <div class="resultados">
+          <h2>Resultados</h2>
+          <li>Abaixo do peso</li>
+          <li>Peso normal</li>
+          <li>Acima do Peso</li>
+          <li>Obesidade grau 1</li>
+          <li>Obesidade grau 2</li>
+          <li>Obesidade grau 3</li>
+        </div>
+      </div>
+      <div class="calculoImc">
+        <h1>Calcule seu IMC</h1>
+        <form class="form" method="get">
+          <p>Peso:</p>
+          <input type="text" class="peso" />
+          <p>Altura:</p>
+          <input type="text" class="altura" />
+          <p><button>Calcular</button></p>
+        </form>
+      </div>
+      <div class="resultado"></div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
